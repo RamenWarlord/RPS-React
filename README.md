@@ -5,7 +5,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 I coded a basic game of Rock paper scissors as a way to practice and get a bit more familiar with coding with React.
 
 ## Pictures and thoughts
-Pictres: to be screenshotted
+Pictres: ![pic](image.png)
 
 This is the part where I share my thoughts. I coded the rock paper scissors as I had before in the past with a switch statement case. A way to make the many cases a bit less bloated was the use of an array I named choices where it contained ['Rock', 'Paper', 'Scissors'] corresponding with 0, 1, 2 index. I am not too sure as of writing this readme whether the way I declared the array was right or conformed to how you would do it. I originally had choices inside the state which resulted in an error stating that this.choices was null/dne so I set this.choices to ['Rock', 'Paper', 'Scissors'] outside of this.state similar to how I binded the clickHandler. The array allowed for less typing. 
 
