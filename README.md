@@ -1,6 +1,22 @@
-# Getting Started with Create React App
+# Rock Paper Scissors coded with React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+I coded a basic game of Rock paper scissors as a way to practice and get a bit more familiar with coding with React.
+
+## Pictures and thoughts
+Pictres: to be screenshotted
+
+This is the part where I share my thoughts. I coded the rock paper scissors as I had before in the past with a switch statement case. A way to make the many cases a bit less bloated was the use of an array I named choices where it contained ['Rock', 'Paper', 'Scissors'] corresponding with 0, 1, 2 index. I am not too sure as of writing this readme whether the way I declared the array was right or conformed to how you would do it. I originally had choices inside the state which resulted in an error stating that this.choices was null/dne so I set this.choices to ['Rock', 'Paper', 'Scissors'] outside of this.state similar to how I binded the clickHandler. The array allowed for less typing. 
+
+I also made use of the es6 syntax where you could have `${variable}` to make life easier to display what happened in the form of a result sentence. 
+
+I split the components into two components: Computer.js and GameComponent.js. Computer.js had three buttons, one for each choice the player would make which onClick would signal to GameComponent, the parent component of Computer which would then randomize a Computer decision and then update and render the new state with the result of the round. I'm not 100% sure as of the moment how I should have gone about splitting the code up with regards to components. I could have skipped the Computer.js component and had all the code in 1 big file in GameComponent. I could have also split up GameComponent into other files/components to make it less fat.
+
+## Conclusion
+
+This rock paper scissors is very barebones and minimal with only 3 buttons, a div for the score and a div for a sentence telling the round result.
+This was coded in less than 2 hours.
+This was a decent coding session for my current level of skill to help me consolidate a bit of the React and js I learned recently.
 
 ## Available Scripts
 
