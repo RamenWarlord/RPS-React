@@ -1,6 +1,7 @@
 # Rock Paper Scissors coded with React
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
 I coded a basic game of Rock paper scissors as a way to practice and get a bit more familiar with coding with React.
 
 ## Pictures and thoughts
